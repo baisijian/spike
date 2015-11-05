@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="main-module-test"
+    errors="0" failures="0" hostname="" id="" package="main-module-test" skipped="0"
+    tests="1" time="2.241" timestamp="Tue, 03 Nov 2015 14:54:58 GMT">
+  
+    <testcase name="Test Main Module" time="2.241" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

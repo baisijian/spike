@@ -1,0 +1,43 @@
+23:21:45.255 INFO - Launching a standalone server
+23:21:45.283 INFO - Java: Oracle Corporation 24.79-b02
+23:21:45.283 INFO - OS: Mac OS X 10.10.5 x86_64
+23:21:45.292 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+23:21:45.356 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+23:21:45.382 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:21:45.383 INFO - Version Jetty/5.1.x
+23:21:45.383 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+23:21:45.384 INFO - Started HttpContext[/selenium-server,/selenium-server]
+23:21:45.384 INFO - Started HttpContext[/,/]
+23:21:45.398 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@2e4a4890
+23:21:45.398 INFO - Started HttpContext[/wd,/wd]
+23:21:45.402 INFO - Started SocketListener on 0.0.0.0:4444
+23:21:45.402 INFO - Started org.openqa.jetty.jetty.Server@75b9fd80
+23:21:45.598 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Page Objects / Google Test}]])
+23:21:45.605 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Page Objects / Google Test}]
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 11560
+Only local connections are allowed.
+23:21:46.988 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Page Objects / Google Test}]]
+23:21:47.000 INFO - Executing: [get: http://www.google.com])
+23:21:48.503 INFO - Done: [get: http://www.google.com]
+23:21:48.509 INFO - Executing: [find elements: By.selector: body])
+23:21:48.535 INFO - Done: [find elements: By.selector: body]
+23:21:48.539 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: body]])
+23:21:48.548 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: body]]
+23:21:48.554 INFO - Executing: [find element: By.selector: input[type=text]])
+23:21:48.565 INFO - Done: [find element: By.selector: input[type=text]]
+23:21:48.569 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[type=text]], [n, o, d, e, j, s]])
+23:21:48.641 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[type=text]], [n, o, d, e, j, s]]
+23:21:48.648 INFO - Executing: [find elements: By.selector: input[name=btnK]])
+23:21:48.670 INFO - Done: [find elements: By.selector: input[name=btnK]]
+23:21:48.672 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[name=btnK]]])
+23:21:48.704 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[name=btnK]]]
+23:21:48.708 INFO - Executing: [find element: By.selector: input[name=btnK]])
+23:21:48.736 INFO - Done: [find element: By.selector: input[name=btnK]]
+23:21:48.740 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[name=btnK]]])
+23:21:48.778 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: input[name=btnK]]]
+23:21:49.788 INFO - Executing: [find element: By.selector: body])
+23:21:49.813 INFO - Done: [find element: By.selector: body]
+23:21:49.816 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: body], class])
+23:21:49.824 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on MAC (180a1c765bd036d10ef64edadede27e1)] -> css selector: body], class]
+23:21:49.827 INFO - Executing: [delete session: 84b81c54-04bd-459e-9ebe-4b94452dc854])
+23:21:50.394 INFO - Done: [delete session: 84b81c54-04bd-459e-9ebe-4b94452dc854]
